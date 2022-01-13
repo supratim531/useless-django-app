@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Login
+{% endblock title %}
+
+{% block body %}
+{% if messages %}
+{% for m in messages %}
+<div class="alert alert-{{m.tags}} alert-dismissible fade show" role="alert">
+    <strong>Hello {{Name}}, </strong>{{m}}
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+    </button>
+</div>
+{% endfor %}
+{% endif %}
+
+<img class="mb-4 def1" src="/static/img/pic1.jpg" alt="" width="340" height="150">
+<form class="form-signin my-2 text-center" method="POST" action="/login/">
+    {% csrf_token %}
+    <h1 class="h3 mb-3 font-weight-normal">Please Sign in</h1>
+    <label for="uname" class="sr-only">Username</label>
+    <input type="text" id="uname" class="form-control" name="uname" placeholder="Username" required autofocus>
+    <label for="inputPassword" class="sr-only">Password</label>
+    <input type="password" id="inputPassword" class="form-control" name="pwd" placeholder="Password" required>
+    <div class="checkbox mb-3">
+        <label>
+            <input type="checkbox" value="remember-me"> Remember me
+        </label>
+    </div>
+    <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+    <p class="mt-5 mb-3 text-muted">&copy; 2017-2020</p>
+</form>
+{% endblock body %}
