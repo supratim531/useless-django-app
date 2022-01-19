@@ -137,3 +137,10 @@ whitenoise==5.3.0
 ```bash
 git push heroku master
 ```
+
+### 7. Migrate your database-model in your `heroku-app`
+**Run these following commands**
+```bash
+heroku run python manage.py migrate
+heroku run python manage.py createsuperuser
+```
