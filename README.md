@@ -111,7 +111,7 @@ python-3.9.4
 ```bash
 pip uninstall psycopg2==2.9.x && pip install psycopg2==2.8.6
 ```
-- **After this check your `requirements.txt` at once**
+- **After this check your `requirements.txt` at-least once**
 ```
 dj-database-url==0.5.0
 Django==2.2
