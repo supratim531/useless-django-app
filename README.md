@@ -10,14 +10,14 @@ This is a useless webapp (just for practice)
 1. Download `heroku-cli` from [here](https://cli-assets.heroku.com/heroku-x64.exe "click here") or [visit the website](https://devcenter.heroku.com/articles/heroku-cli#download-and-install "click here")
 
 - **Create a virtual environment:**
+```bash
+pip install virtualenv
 ```
-$ pip install virtualenv
-```
-```
-$ virtualenv anyname
+```bash
+virtualenv anyname
 ```
 - After creating virtual environment activate your vitualenv
-```
-$ pip install django gunicorn django-heroku
+```bash
+pip install django gunicorn django-heroku
 ```
 `You can run specific version like pip install django==2.2`
