@@ -60,3 +60,17 @@ DEBUG = False
 
 ALLOWED_HOSTS = ["*", "localhost"]
 ```
+
+### 5. Final process of `heroku-deployment`
+- **Open your terminal / cmd and run the following commands**
+```bash
+heroku login
+```
+- After run `heroku login` you can see this type of texts in your terminal
+```bash
+C:\Users\SUPRATIM\Desktop\UselessDjangoApp> heroku login
+heroku: Press any key to open up the browser to login or q to exit:
+Opening browser to https://cli-auth.heroku.com/auth/cli/browser/e1625921-dddc-400f-adc3-8f570d48ad0c?requestor=SFMyNTY.g2gDbQAAAAw0OS4zNy4zOS4yNTBuBgCYFdJzfgFiAAFRgA.enp9fW26_s1Hzn_VloGHmZpz3hi9QEY07WSUne6sOc4
+Logging in... done
+Logged in as supratimm531@gmail.com
+```
