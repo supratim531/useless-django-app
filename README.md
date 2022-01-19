@@ -53,3 +53,10 @@ import django_heroku
 # Activate Django-Heroku.
 django_heroku.settings(locals())
 ```
+- You can also made these changes in `settings.py`
+```python
+# SECURITY WARNING: don't run with debug turned on in production!
+DEBUG = True
+
+ALLOWED_HOSTS = ["*", "localhost"]
+```
