@@ -63,10 +63,10 @@ ALLOWED_HOSTS = ["*", "localhost"]
 
 ### 5. Final process of `heroku-deployment` for your django-sqlite application
 - **Open your terminal / cmd and run the following commands**
-```bash
+```
 heroku login
 ```
 - Now create your `heroku-app` using this command
-```gitbash
+```
 $ heroku create yourappname
 ```
