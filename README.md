@@ -67,6 +67,19 @@ ALLOWED_HOSTS = ["*", "localhost"]
 heroku login
 ```
 - Now create your `heroku-app` using this command
-```git
+```
 heroku create yourappname
+```
+- After run this command you can see:
+```
+C:\Users\SUPRATIM\Desktop\UselessDjangoApp>heroku create yourappname
+Creating app... done, yourappname
+https://yourappname.herokuapp.com/ | https://git.heroku.com/yourappname.git
+```
+- **Now follow these steps**
+```bash
+git status
+git init
+git remote add heroku https://git.heroku.com/yourappname.git
+git remote -v
 ```
