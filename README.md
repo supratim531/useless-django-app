@@ -41,6 +41,15 @@ STATICFILES_DIRS = [
 This file is used to explicitly declare your application’s process types and entry points. It is located in the root of your repository
 
 #### Procfile
-```Procfile
+```
 web: gunicorn yourprojectname.wsgi --log-file -
+```
+- Add the following `import` statement to the top of `settings.py`
+```python
+import django_heroku
+```
+- Then add the following to the bottom of `settings.py`
+```python
+# Activate Django-Heroku.
+django_heroku.settings(locals())
 ```
