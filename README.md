@@ -38,7 +38,7 @@ STATICFILES_DIRS = [
 ```
 ### First, and most importantly, Heroku web applications require a `Procfile`
 
-_**This file is used to explicitly declare your application’s process types and entry points. It is located in the root of your repository**_
+- _**This file is used to explicitly declare your application’s process types and entry points. It is located in the root of your repository**_
 
 #### Procfile
 ```
