@@ -23,7 +23,7 @@ pip install django gunicorn django-heroku
 
 `You can run specific version like pip install django==2.2`
 
-- Move your django-project in that virtual environment
+- Copy / Transfer your django-project in that virtual environment
 - Add your dependencies to requirements.txt by typing in the terminal
 ```bash
 pip freeze > requirements.txt
