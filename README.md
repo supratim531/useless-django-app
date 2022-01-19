@@ -139,7 +139,7 @@ git push heroku master
 ```
 
 ### 7. Migrate your database-model in your `heroku-app`
-**Run these following commands**
+**Run these 2 following commands**
 ```bash
 heroku run python manage.py migrate
 heroku run python manage.py createsuperuser
