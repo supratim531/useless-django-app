@@ -20,3 +20,4 @@ $ virtualenv anyname
 ```
 $ pip install django gunicorn django-heroku
 ```
+`You can run specific version like pip install django==2.2`
