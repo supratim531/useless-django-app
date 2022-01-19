@@ -61,7 +61,7 @@ DEBUG = False
 ALLOWED_HOSTS = ["*", "localhost"]
 ```
 
-### 5. Final process of `heroku-deployment`
+### 5. Final process of `heroku-deployment` for your django-sqlite application
 - **Open your terminal / cmd and run the following commands**
 ```bash
 heroku login
