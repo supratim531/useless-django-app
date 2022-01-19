@@ -67,6 +67,6 @@ ALLOWED_HOSTS = ["*", "localhost"]
 heroku login
 ```
 - Now create your `heroku-app` using this command
-```bash
+```gitbash
 $ heroku create yourappname
 ```
