@@ -114,7 +114,7 @@ python-3.9.4
 ```
 
 ---
-### Caution:
+## Caution:
 - **If you are using `django==2.2` then change the version of `psycopg2==2.9.x` with `psycopg2==2.8.6` like this**
 ```bash
 pip uninstall psycopg2==2.9.x && pip install psycopg2==2.8.6
