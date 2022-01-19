@@ -56,7 +56,7 @@ django_heroku.settings(locals())
 - You can also made these changes in `settings.py`
 ```python
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ["*", "localhost"]
 ```
