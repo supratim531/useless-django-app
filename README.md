@@ -1,5 +1,5 @@
 # UselessDjangoApp
-This is a useless webapp (just for practice)
+This is a useless webapp (just for practice). You can visit [here](http://authjango.herokuapp.com/ "my heroku-app") to see my hosted page.
 
 # Deploying Process
 ## Video Tutorial
