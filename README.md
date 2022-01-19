@@ -11,12 +11,12 @@ This is a useless webapp (just for practice)
 
 - **Create a virtual environment:**
 ```
-pip install virtualenv
+$ pip install virtualenv
 ```
 ```
-virtualenv anyname
+$ virtualenv anyname
 ```
 `Active your virtual environment`
 ```
-pip install django gunicorn django-heroku
+$ pip install django gunicorn django-heroku
 ```
