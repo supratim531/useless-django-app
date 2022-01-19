@@ -30,7 +30,7 @@ pip freeze > requirements.txt
 ```
 
 ### Setup your django-project before starting `heroku-deployment`
-- Don't forget to add this in settings.py
+- Don't forget to add this in **settings.py**
 ```python
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static")
