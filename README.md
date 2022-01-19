@@ -29,7 +29,7 @@ pip install django gunicorn django-heroku
 pip freeze > requirements.txt
 ```
 
-## Setup your django-project before starting `heroku-deployment`
+### Setup your django-project before starting `heroku-deployment`
 - Don't forget to add this in settings.py
 ```python
 STATICFILES_DIRS = [
