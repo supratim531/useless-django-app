@@ -20,4 +20,26 @@ virtualenv anyname
 ```terminal
 pip install django gunicorn django-heroku
 ```
+
 `You can run specific version like pip install django==2.2`
+
+- Move your django-project in that virtual environment
+- Add your dependencies to requirements.txt by typing in the terminal
+```bash
+pip freeze > requirements.txt
+```
+
+## Setup your django-project before starting `heroku-deployment`
+- Don't forget to add this in settings.py
+```python
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, "static")
+]
+```
+- First, and most importantly, Heroku web applications require a `Procfile`
+This file is used to explicitly declare your application’s process types and entry points. It is located in the root of your repository
+
+#### Procfile
+```Procfile
+web: gunicorn yourprojectname.wsgi --log-file -
+```
