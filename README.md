@@ -68,5 +68,5 @@ heroku login
 ```
 - Now create your `heroku-app` using this command
 ```
-$ heroku create yourappname
+heroku create yourappname
 ```
