@@ -82,4 +82,9 @@ git status
 git init
 git remote add heroku https://git.heroku.com/yourappname.git
 git remote -v
+
+git status
+git add .
+git status
+git commit -m "initial commit by yourname"
 ```
