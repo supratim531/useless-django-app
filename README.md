@@ -133,7 +133,7 @@ whitenoise==5.3.0
 ---
 
 ### 6. Your `heroku-app` is now ready to deploy
-- **Just run this command in your terminal / cmd**
+**Just run this command in your terminal / cmd**
 ```bash
 git push heroku master
 ```
