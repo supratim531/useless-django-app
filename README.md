@@ -78,6 +78,14 @@ MIDDLEWARE = [
 ```
 heroku login
 ```
+- After run `heroku login` your default browser will be open and after logged in heroku you can see:
+```bash
+C:\Users\SUPRATIM\Desktop\UselessDjangoApp>heroku login
+heroku: Press any key to open up the browser to login or q to exit:
+Opening browser to https://cli-auth.heroku.com/auth/cli/browser/e1625921-dddc-400f-adc3-8f570d48ad0c?requestor=SFMyNTY.g2gDbQAAAAw0OS4zNy4zOS4yNTBuBgCYFdJzfgFiAAFRgA.enp9fW26_s1Hzn_VloGHmZpz3hi9QEY07WSUne6sOc4
+Logging in... done
+Logged in as supratimm531@gmail.com
+```
 - Now create your `heroku-app` using this command
 ```
 heroku create yourappname
