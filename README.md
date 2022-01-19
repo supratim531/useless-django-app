@@ -9,7 +9,7 @@ This is a useless webapp (just for practice)
 1. At first [create account](https://www.heroku.com "heroku.com") or [login](https://id.heroku.com/login "heroku login") in heroku
 1. Download `heroku-cli` from [here](https://cli-assets.heroku.com/heroku-x64.exe "click here") or [visit the website](https://devcenter.heroku.com/articles/heroku-cli#download-and-install "click here")
 
-### 3. Create a virtual environment:**
+### 3. Create a virtual environment:
 ```terminal
 pip install virtualenv
 ```
