@@ -108,8 +108,10 @@ python-3.9.4
 ---
 ### Caution:
 - **If you are using `django==2.2` then change the version of `psycopg2==2.9.x` with `psycopg2==2.8.6` like this**
-
-#### requirements.txt
+```bash
+pip uninstall psycopg2==2.9.x && pip install psycopg2==2.8.6
+```
+- **After this check your requirements.txt at once**
 ```
 dj-database-url==0.5.0
 Django==2.2
