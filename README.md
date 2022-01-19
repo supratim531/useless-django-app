@@ -104,7 +104,13 @@ git commit -m "initial commit by yourname"
 ```
 python-3.9.4
 ```
-```requirements.txt
+
+---
+### Caution:
+- **If you are using `django==2.2` then change the version of `psycopg2==2.9.x` with `psycopg2==2.8.6` like this**
+
+#### requirements.txt
+```
 dj-database-url==0.5.0
 Django==2.2
 django-heroku==0.3.1
@@ -114,3 +120,4 @@ pytz==2021.3
 sqlparse==0.4.2
 whitenoise==5.3.0
 ```
+---
