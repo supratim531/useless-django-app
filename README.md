@@ -66,7 +66,7 @@ ALLOWED_HOSTS = ["*", "localhost"]
 ```bash
 heroku login
 ```
-- After run `heroku login` your default browser will be open and after logged in you can see this type of texts in your terminal
+- After run `heroku login` your default browser will be open and after logged in heroku you can see this type of texts in your terminal
 ```bash
 C:\Users\SUPRATIM\Desktop\UselessDjangoApp> heroku login
 heroku: Press any key to open up the browser to login or q to exit:
