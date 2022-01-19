@@ -16,7 +16,7 @@ $ pip install virtualenv
 ```
 $ virtualenv anyname
 ```
-_After creating virtual environment activate your vitualenv_
+- After creating virtual environment activate your vitualenv
 ```
 $ pip install django gunicorn django-heroku
 ```
