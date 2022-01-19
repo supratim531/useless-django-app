@@ -88,3 +88,7 @@ git add .
 git status
 git commit -m "initial commit by yourname"
 ```
+- Add `runtime.txt` in the root folder of your project / repository and write
+```
+python-3.9.4
+```
