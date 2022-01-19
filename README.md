@@ -36,7 +36,7 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static")
 ]
 ```
-**First, and most importantly, Heroku web applications require a `Procfile`**
+##### First, and most importantly, Heroku web applications require a `Procfile`
 
 _**This file is used to explicitly declare your application’s process types and entry points. It is located in the root of your repository**_
 
