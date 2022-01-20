@@ -42,7 +42,7 @@ STATICFILES_DIRS = [
 
 #### Procfile
 ```
-web: gunicorn yourprojectname.wsgi --log-file -
+web: gunicorn yourprojectname.wsgi:application --log-file -
 ```
 - Add the following `import` statement to the top of `settings.py`
 ```python
